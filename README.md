@@ -98,14 +98,14 @@
 up_space_url = "https://space.bilibili.com/703057028/upload/video"
 
 # 飞书文档ID
-feishu_doc_id = "WuBYd02bAoNNmHxBYL5cyu3xn0e"
+feishu_doc_id = "<你的飞书文档ID>"   # 从 URL /docx/<这段> 复制
 ```
 
 ### 3. 一键执行
 
 ```
 使用B站美食地图Skill。
-目标UP主：猴儿甜猴儿甜。
+目标UP主：<UP主昵称>。
 平台：B站+百度地图+飞书。
 方式：全自动，中间不询问。
 ```
@@ -126,16 +126,10 @@ feishu_doc_id = "WuBYd02bAoNNmHxBYL5cyu3xn0e"
 ```
 bilibili-food-map-skill/
 ├── README.md                    # 本文件
-├── SKILL.md                     # 主入口和执行规则
-├── references/
-│   ├── bilibili-api.md          # B站API调用方法
-│   ├── ocr-calibration.md       # OCR识别校准流程
-│   ├── baidu-maps-verify.md     # 百度地图验证6项标准
-│   ├── feishu-doc-structure.md  # 飞书文档目录结构
-│   └── quality-gate.md          # 质量门禁和校验规则
-└── examples/
-    └── success-rate-template.md # 成功率标记模板
+└── SKILL.md                     # 主入口和执行规则
 ```
+
+> 规划中（尚未实现）：`references/`（B站API调用/OCR校准/百度地图6项校验/飞书文档结构/质量门禁细则）、`examples/`（成功率标记模板）。
 
 ## 证据合同
 
@@ -156,7 +150,7 @@ bilibili-food-map-skill/
 
 ## 关于作者
 
-桂宁，新能源汽车售后运营专家，美食探店爱好者。
+ninggui，美食探店爱好者。这个 Skill 是在实际收藏 350+ 家店的过程中反复打磨出来的，所有规则都是踩过坑之后固化的。
 这个Skill是在实际收藏350+家店的过程中反复打磨出来的，所有规则都是踩过坑之后固化的。
 
 ---
